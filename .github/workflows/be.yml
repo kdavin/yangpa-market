@@ -8,8 +8,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-  paths:
-    - "yangpa-be/**"
+    paths:
+      - "yangpa-be/**"
 
 jobs:
   build:
